@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    height: 35px;
+    height: 70px;
     background-color: #161616;
     color: white;
     position: fixed;
@@ -15,7 +15,7 @@ export const ContainerLink = styled.div`
     gap: 10px;
 `;
 export const LinkItem = styled.a`
-    font-size: 10px;
+    font-size: 25px;
     font-weight: bolder;
     padding: 5px;
     border-bottom: 1px solid #DDE6ED;
