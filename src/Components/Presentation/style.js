@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-    border-top: 1px solid #9ad1d4;
-    border-bottom: 1px solid #9ad1d4;
+    border-top: 1px solid #ade8f4;
+    border-bottom: 1px solid #ade8f4;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -14,13 +14,14 @@ export const Container = styled.div`
 `;
 export const Info = styled.div`
     
-    color: white;
     margin-bottom: 20px;
+    
 `;
 export const Title = styled.h2`
     font-size: 70px;
-    color: #dee2e6;
+    color: #95d5b2;
     text-align: center;
+   
 `;
 export const Desc = styled.p`
     font-size: 25px;

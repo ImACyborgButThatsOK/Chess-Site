@@ -18,7 +18,7 @@ export const Info = styled.div`
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    color: #91C8E4;
+    color: #88d4ab;
     padding: 20px;
     line-height: 50px;
     
@@ -37,17 +37,17 @@ export const Desc = styled.p`
 `;
 export const Button = styled.button`
 
-    padding: 30px 0px;
+    padding: 20px 0px;
     width: 30%;
     border-radius: 10px;
-    border: 1px solid #91C8E4;
+    border: 2px solid #a8dadc   ;
     background-color: transparent;
-    color: #85CFCB;
+    color: #caf0f8;
     font-weight: bolder;
     transition: all 0.3s ease;
     font-size: 40px;
     &:hover{
         cursor: pointer;
-        filter: brightness(0.7);
+        filter: brightness(0.5);
     }
 `;

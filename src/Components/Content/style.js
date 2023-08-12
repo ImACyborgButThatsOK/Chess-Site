@@ -10,6 +10,8 @@ export const Container = styled.div`
     gap: 50px;
     color: white;
     padding: 20px;
+    
+    
 `;
 export const ColorStyle = styled.span`
     color: crimson;
@@ -26,15 +28,17 @@ export const Title = styled.h2`
     margin-top: 50px;   
     font-size: 120px;
     color: #ef233c;
+    letter-spacing: 5px;
+    font-family: 'Bebas Neue', sans-serif;
 `;
 export const Desc = styled.p`
     text-align: center;
     font-size: 25px;
     width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: lightgray;
+    color: #adb5bd;
+        .colorP{
+            color: #ef233c;
+    }   
 `;
 export const ContainerCards = styled.div`
     width: 100%;
@@ -44,6 +48,7 @@ export const ContainerCards = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     gap: 70px;
+    
 `;
 export const Card = styled.div`
     display: flex;
@@ -55,6 +60,7 @@ export const Card = styled.div`
     .icon{
         margin-bottom: 10px;
         font-size: 80px;
+        cursor: pointer;
     }
 `;
 export const CardTitle = styled.span`
@@ -74,5 +80,9 @@ export const CardButton = styled.button`
     background-color: transparent;
     cursor: pointer;
     margin-top: 10px;
+    transition: all ease 0.4s;
+    &:hover{
+        filter: brightness(0.5);
+    }
 `;
 
