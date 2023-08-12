@@ -6,6 +6,7 @@ export const Container = styled.div`
     background-color: #161616;
     color: white;
     position: fixed;
+    z-index: 888;
 `;
 export const ContainerLink = styled.div`
     height: 100%;
