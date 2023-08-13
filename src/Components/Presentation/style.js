@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-    border-top: 1px solid #ade8f4;
-    border-bottom: 1px solid #ade8f4;
+    border-top: 1px solid crimson;
+    border-bottom: 1px solid crimson;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -19,7 +19,7 @@ export const Info = styled.div`
 `;
 export const Title = styled.h2`
     font-size: 70px;
-    color: #95d5b2;
+    color: crimson;
     text-align: center;
    
 `;

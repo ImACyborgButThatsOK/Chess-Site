@@ -10,7 +10,7 @@ export const Container = styled.div`
     gap: 50px;
     color: white;
     padding: 20px;
-    
+  
     
 `;
 export const ColorStyle = styled.span`

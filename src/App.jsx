@@ -1,3 +1,4 @@
+import Bonus from "./Components/Bonus/Bonus";
 import Content from "./Components/Content/Content";
 import Intro from "./Components/Intro/Intro";
 import Navbar from "./Components/Navbar/Navbar";
@@ -10,6 +11,7 @@ function App() {
       <Intro />
       <Presentation />
       <Content />
+      <Bonus />
     </div>
   );
 }

@@ -6,6 +6,10 @@ export const Container = styled.div`
     height: 100vh;  
     align-items: center;
     justify-content: center;
+    background-image: url('./img/bg.png');
+    background-size: cover; /* Controla o dimensionamento da imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+  /* Outras propriedades de estilo */
 `;
 
 
@@ -18,7 +22,7 @@ export const Info = styled.div`
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    color: #88d4ab;
+    color: crimson;
     padding: 20px;
     line-height: 50px;
     
@@ -40,14 +44,17 @@ export const Button = styled.button`
     padding: 20px 0px;
     width: 30%;
     border-radius: 10px;
-    border: 2px solid #a8dadc   ;
+    border: 2px solid crimson   ;
     background-color: transparent;
-    color: #caf0f8;
+    color: white;
+
     font-weight: bolder;
     transition: all 0.3s ease;
     font-size: 40px;
     &:hover{
         cursor: pointer;
         filter: brightness(0.5);
+        color: crimson;
+
     }
 `;

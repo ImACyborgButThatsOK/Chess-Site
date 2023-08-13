@@ -6,6 +6,13 @@
 }
 
 body {
-    background-image: linear-gradient(to right top, #1d0d13, #1e0f18, #1e111d, #1d1323, #191629, #131a2e, #0b1d31, #002134, #002535, #002933, #002d31, #00302d);
-    /* background-image: linear-gradient(to right top, #292426, #2c2329, #2e232e, #2c2434, #28253b, #21283f, #172a42, #082d43, #023040, #04323b, #0d3336, #173432); */
+    /* background-image: linear-gradient(to right top, #1d0d13, #1e0f18, #1e111d, #1d1323, #191629, #131a2e, #0b1d31, #002134, #002535, #002933, #002d31, #00302d);
+    background-image: linear-gradient(to right top, #292426, #2c2329, #2e232e, #2c2434, #28253b, #21283f, #172a42, #082d43, #023040, #04323b, #0d3336, #173432); */
+    background-color: #0F0F0F;
+    background-image: url('./img/bg2.png');
+    background-size: cover;
+    /* Controla o dimensionamento da imagem */
+    background-repeat: no-repeat;
+    /* Evita a repetição da imagem */
+    /* Outras propriedades de estilo */
 }
