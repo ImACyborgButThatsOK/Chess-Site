@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-border-top: 1px solid crimson;
+    border-top: 2px solid crimson;
+    border-bottom: 2px solid crimson;
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     background-image: url('./img/bg-feed.png');
     background-color: #0F0F0F;
     background-size: cover;
