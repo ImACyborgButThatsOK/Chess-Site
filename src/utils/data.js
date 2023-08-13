@@ -43,3 +43,52 @@ export const ContentData = [
     }
 
 ]
+
+export const moreData = [
+    {
+        id: 1,
+        title: "ASSINATURA",
+        desc: "Acesso aos cursos e aulas ao vivo por 12 meses",
+    },
+    {
+        id: 2,
+        title: "ACESSO AS AULAS",
+        desc: "Disponíveis na plataforma Hotmart logo após o pagamento",
+    },
+    {
+        id: 3,
+        title: "PAGAMENTO SEGURO",
+        desc: "Seus dados estão 100% protegidos. Compra através da Hotmart",
+    },
+    {
+        id: 4,
+        title: "TESTE GRÁTIS 7 DIAS",
+        desc: "Direito a devolução de 100% do seu dinheiro dentro desse prazo",
+    },
+    {
+        id: 5,
+        title: "GRUPO WHATSAPP",
+        desc: "Exclusivo para os alunos",
+    },
+    {
+        id: 6,
+        title: "RATING",
+        desc: "Melhore seu xadrez de maneira consistente e aumente o seu Rating",
+    },
+    {
+        id: 7,
+        title: "AULAS AO VIVO",
+        desc: "Aulas ao vivo toda semana com nosso time de professores",
+    },
+    {
+        id: 8,
+        title: "EXERCÍCIOS  ",
+        desc: "Material de apoio (exercícios) referente ao conteúdo das aulas",
+    },
+    {
+        id: 9,
+        title: "PLANEJAMENTO",
+        desc: "Escolha o material ideal para estudar de acordo com seu rating",
+    },
+
+]
