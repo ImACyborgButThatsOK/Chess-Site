@@ -10,7 +10,10 @@ export const Container = styled.div`
     gap: 50px;
     color: white;
     padding: 20px;
-  
+    background-image: url('./img/bg-feed.png');
+    background-color: #0F0F0F;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 `;
 export const ColorStyle = styled.span`

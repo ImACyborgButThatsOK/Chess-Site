@@ -1,5 +1,6 @@
 import Bonus from "./Components/Bonus/Bonus";
 import Content from "./Components/Content/Content";
+import Feedback from "./Components/Feedback/Feedback";
 import Intro from "./Components/Intro/Intro";
 import More from "./Components/More/More";
 import Navbar from "./Components/Navbar/Navbar";
@@ -14,6 +15,7 @@ function App() {
       <Content />
       <Bonus />
       <More />
+      <Feedback />
     </div>
   );
 }

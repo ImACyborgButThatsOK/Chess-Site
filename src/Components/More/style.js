@@ -3,14 +3,18 @@ import styled from "styled-components";
 export const Container = styled.div`
     width: 100%;
     height: 90vh;
-   
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 50px;
     color: white;
+
+    background-color: #0F0F0F;
+    background-image: url('./img/bg-feed.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 `;
 
 

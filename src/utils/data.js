@@ -92,3 +92,39 @@ export const moreData = [
     },
 
 ]
+
+
+export const feedbackData = [
+    {
+        id: 1,
+        img: "https://static.wixstatic.com/media/564b65_2e1607a4cc7a40148003788f9f5e25b5~mv2.jpg/v1/crop/x_0,y_11,w_496,h_1108/fill/w_249,h_558,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202023-08-07%20at%2021_43_edited.jpg"
+    },
+    {
+        id: 2,
+        img: "https://static.wixstatic.com/media/564b65_700b1f6919184b83b7ddf675b482603b~mv2.jpg/v1/fill/w_260,h_188,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202023-08-07%20at%2021_43_edited.jpg"
+    },
+    {
+        id: 3,
+        img: "https://static.wixstatic.com/media/564b65_24eb778a79984458b497641f3dd8df46~mv2.jpg/v1/fill/w_266,h_425,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202023-08-07%20at%2021_43_edited.jpg"
+    },
+    {
+        id: 4,
+        img: "https://static.wixstatic.com/media/564b65_e41119d3889146d3ad4597a311f3cf52~mv2.jpg/v1/fill/w_281,h_549,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202023-08-07%20at%2021_43_edited.jpg"
+    },
+    {
+        id: 5,
+        img: "https://static.wixstatic.com/media/564b65_9b588de2a85540b490e453e9b9d7ffc4~mv2.jpeg/v1/crop/x_63,y_0,w_593,h_1120/fill/w_316,h_597,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/669EB410-F2EE-40CF-8F4E-BA95FC13A213.jpeg"
+    },
+    {
+        id: 6,
+        img: "https://static.wixstatic.com/media/564b65_e35340d937974cd0b692efa36aa86f92~mv2.jpeg/v1/crop/x_76,y_0,w_565,h_936/fill/w_303,h_502,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/7BF6F022-0107-4E1B-A41A-03ACC0CD7D00.jpeg"
+    },
+    {
+        id: 7,
+        img: "https://static.wixstatic.com/media/564b65_a4bd1b37fbd5490b983c2aa945616394~mv2.jpeg/v1/crop/x_76,y_0,w_566,h_1030/fill/w_276,h_502,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2BA003BA-4CA5-404D-A76D-7C7038DACBCA.jpeg"
+    },
+    {
+        id: 8,
+        img: "https://static.wixstatic.com/media/564b65_5a1779e33f2146f0943a558bda212649~mv2.jpeg/v1/crop/x_76,y_0,w_571,h_496/fill/w_288,h_250,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/564b65_5a1779e33f2146f0943a558bda212649~mv2.jpeg"
+    },
+]

@@ -11,6 +11,11 @@ export const Container = styled.div`
     flex-direction: column;
     gap: 100px;
     padding: 20px;
+
+    background-image: url('./img/bg-feed.png');
+    background-color: #0F0F0F;
+    background-size: cover;
+    background-repeat: no-repeat;
 `;
 export const Info = styled.div`
     
