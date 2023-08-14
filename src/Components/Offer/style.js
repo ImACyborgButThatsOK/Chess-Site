@@ -19,13 +19,13 @@ export const InfoContainer = styled.div`
     flex-direction: column;
     font-weight: bolder;
     letter-spacing: 2px;
-    margin-left: 50px;
-    margin-top: 100px;
+    margin-left: 100px;
+    margin-top: 150px;
     gap: 20px;
 
 `;
 export const Title = styled.h3`
-    font-size: 50px;
+    font-size: 60px;
     color: yellow;
     font-weight: bolder;
 `;
@@ -52,12 +52,12 @@ export const Button = styled.button`
     width: 40%;
     margin: 0 auto;
 
-    font-size: 20px;
+    font-size: 25px;
     color: #d81159;
-    font-weight: bolder;
+    font-weight: bold;
     border-radius: 10px;
     border: 3px solid black;
-    padding: 20px;
+    padding: 10px ;
     background-color: #e9ff70;
     cursor: pointer;
     transition: all ease 0.4s;
