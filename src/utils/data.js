@@ -121,3 +121,135 @@ export const feedbackData = [
         img: "https://static.wixstatic.com/media/564b65_a4bd1b37fbd5490b983c2aa945616394~mv2.jpeg/v1/crop/x_76,y_0,w_566,h_1030/fill/w_276,h_502,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2BA003BA-4CA5-404D-A76D-7C7038DACBCA.jpeg"
     }
 ]
+
+export const moreQuestions = [
+    {
+        id: 1,
+        name: "Por quanto tempo vou ter acesso aos cursos?",
+        expend: false,
+        subcategories: [
+            {
+                id: 1,
+                name: "Você terá acesso aos cursos durante o período de 12 meses e poderá renovar a assinatura pelo mesmo valor."
+            }
+        ]
+    },
+    {
+        id: 2,
+        name: "Como vou receber o produto após realizar a compra?",
+        expend: false,
+        subcategories: [
+            {
+                id: 1,
+                name: "Assim que o pagamento for aprovado através da Hotmart, você receberá um e-mail com as credenciais para ter acesso aos cursos nesta plataforma. Caso tenha qualquer dúvida, entrar em contato: treinamentoalboredosupi@gmail.com",
+            }
+
+        ]
+    },
+    {
+        id: 3,
+        name: "Como saber se estes cursos são para o meu nível?",
+        expend: false,
+        subcategories: [
+            {
+                id: 1,
+                name: "Estes cursos foram estruturados para ajudar jogadores de TODOS os níveis no xadrez, mesmo aqueles que ainda não sabem mexer as peças ou nunca tiveram contato com o jogo. Eles abordam desde os problemas que iniciantes passam no jogo, até jogadores de competição, chegando até mesmo no nível de Grande Mestre. Tudo isso de maneira bem estruturada nos módulos divididos por faixa de rating e por temas."
+            }
+        ]
+    },
+    {
+        id: 4,
+        name: "Eu vou ter contato com os professores durante o curso?",
+        expend: false,
+        subcategories: [
+            {
+                id: 1,
+                name: "Sim! Os 300 primeiros alunos terão acesso direto aos professores através de um grupo exclusivo de WhatsApp durante o período de assinatura (12 meses). Nele, você poderá interagir com os professores e demais alunos com suas dúvidas referentes as aulas e exercícios."
+            }
+        ]
+    },
+    {
+        id: 5,
+        name: "O conteúdo é ao vivo ou gravado?",
+        expend: false,
+        subcategories: [
+            {
+                id: 1,
+                name: "Você receberá todo o conteúdo dos cursos gravado com altíssima qualidade. Além disso, poderá participar das aulas ao vivo toda semana com nossa equipe de professores."
+            }
+        ]
+    },
+    {
+        id: 6,
+        name: "Estes cursos terão atualizações? Vou precisar pagar por elas?",
+        expend: false,
+        subcategories: [
+            {
+                id: 1,
+                name: "Estes cursos foram desenvolvidos da maneira mais completa possível, mas todos os meses serão disponibilizados cursos novos sem nenhum custo adicional aos Alunos."
+            }
+        ]
+    },
+    {
+        id: 7,
+        name: "Estes cursos serão por este preço para sempre?",
+        expend: false,
+        subcategories: [
+            {
+                id: 1,
+                name: "Os alunos desta turma, terão acesso a um desconto em sua assinatura. Faça sua matrícula e garanta este preço exclusivo, pois a qualquer momento o preço pode voltar a ser o original. "
+            }
+        ]
+    },
+    {
+        id: 8,
+        name: "Quais as formas de pagamento disponíveis?",
+        expend: false,
+        subcategories: [
+            {
+                id: 1,
+                name: "Você poderá efetuar o pagamento por cartão, pix ou boleto bancário. Para outras formas de pagamento, entre em contato com treinamentoalboredosupi@gmail.com"
+            }
+        ]
+    },
+]
+// export const moreQuestions = [
+//     {
+//         id: 1,
+//         name: "Início",
+//         expend: false,
+//         subcategories: []
+//     },
+//     {
+//         id: 2,
+//         name: "Cursos",
+//         expend: false,
+//         subcategories: [
+//             {
+//                 id: 1,
+//                 name: "Método GM Supi",
+//             },
+//             {
+//                 id: 1,
+//                 name: "Método 2.0 MF Julia",
+//             },
+//             {
+//                 id: 1,
+//                 name: "",
+//             },
+
+//         ]
+//     },
+//     {
+//         id: 3,
+//         name: "Assinatura",
+//         expend: false,
+//         subcategories: []
+//     },
+//     {
+//         id: 4,
+//         name: "Sobre",
+//         expend: false,
+//         subcategories: []
+//     },
+// ]

@@ -32,17 +32,6 @@ export const LinkItem = styled.a`
             filter: brightness(0.7);
         }
     }
-    &:last-child{
-        padding: 5px;
-        border-radius: 10px;
-        border: 1px solid #B9EDDD;
-        margin-left: 20px;
-
-        &:hover{
-            filter: brightness(0.8);
-            border: 1px solid #41644A;
-            color: #FAD4D4;
-        }
-    }
+    
    
 `;

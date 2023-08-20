@@ -6,7 +6,7 @@ const Navbar = () => {
         <Container>
             <ContainerLink>
                 <LinkItem to={"/"}>Início</LinkItem>
-                <LinkItem to={"/"}>Cursos</LinkItem>
+                {/* <LinkItem to={"/"}>Cursos</LinkItem> */}
                 <LinkItem to={"/"}>Sobre</LinkItem>
                 <LinkItem to={"/"}>Assinatura</LinkItem>
             </ContainerLink>
