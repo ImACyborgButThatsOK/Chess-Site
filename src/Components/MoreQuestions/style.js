@@ -12,7 +12,9 @@ export const Container = styled.div`
     background-size: cover; /* Controla o dimensionamento da imagem */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
   /* Outras propriedades de estilo */
-
+  @media (min-width:360px) and (max-width: 740px){
+       display: none;
+    }
 `;
 
 export const QuestionsTitle = styled.h1`
@@ -29,6 +31,8 @@ export const Wrapper = styled.div`
      flex-wrap: wrap;
      justify-content: center;
      align-items: center;
+
+  
 `;
 
 export const Categories = styled.div`
@@ -45,7 +49,7 @@ export const CategoryItem = styled.div`
 `;
 
 export const Title = styled.div`
-    font-size: 40px;  
+    font-size: 40px;    
     color: #bfd8bd;
     font-family: 'Barriecito', cursive;
     transition: all ease 0.5s;

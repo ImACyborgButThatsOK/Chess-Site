@@ -7,6 +7,11 @@ export const Container = styled.div`
     justify-content: space-between;
     border: 1px solid crimson;
 
+    
+    @media (min-width:360px) and (max-width: 740px){
+        display: none;
+    }
+
 `;
 export const ImgContainer = styled.div``;
 export const Img = styled.img`

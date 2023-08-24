@@ -12,6 +12,10 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (min-width:360px) and (max-width: 740px){
+        display: none;
+    }
 `;
 
 export const InfoContainer = styled.div`

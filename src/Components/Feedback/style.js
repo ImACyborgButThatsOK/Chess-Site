@@ -9,6 +9,10 @@ export const Container = styled.div`
     background-color: #0F0F0F;
     background-size: cover;
     background-repeat: no-repeat;
+
+    @media (min-width:360px) and (max-width: 740px){
+     display: none;
+    }
 `;
 export const Title = styled.h1`
     margin-top: 50px;
@@ -25,6 +29,9 @@ export const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     gap: 20px;
+  
+
+   
 `
 
 export const FeedCard = styled.div`

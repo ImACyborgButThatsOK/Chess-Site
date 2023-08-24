@@ -14,6 +14,10 @@ export const Container = styled.div`
     background-color: #0F0F0F;
     background-size: cover;
     background-repeat: no-repeat;
+
+    @media (min-width:360px) and (max-width: 740px){
+        gap: 0px;
+    }
     
 `;
 export const ColorStyle = styled.span`
@@ -25,14 +29,21 @@ export const InfoContainer = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+   
 
 `;
 export const Title = styled.h2`
-    margin-top: 50px;   
     font-size: 120px;
     color: #ef233c;
     letter-spacing: 5px;
     font-family: 'Bebas Neue', sans-serif;
+
+
+    @media (min-width:360px) and (max-width: 740px){
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 `;
 export const Desc = styled.p`
     text-align: center;
@@ -42,6 +53,9 @@ export const Desc = styled.p`
         .colorP{
             color: #ef233c;
     }   
+    @media (min-width:360px) and (max-width: 740px){
+       display: none;
+    }
 `;
 export const ContainerCards = styled.div`
     width: 100%;
@@ -49,8 +63,15 @@ export const ContainerCards = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 70px;
+    gap: 30px;
+
+    @media (min-width:360px) and (max-width: 740px){
+        display: flex;
+        flex-direction: column;
+        overflow-x: scroll;
+        padding-top: 40px;
+
+    }
     
 `;
 export const Card = styled.div`
@@ -68,9 +89,17 @@ export const Card = styled.div`
 `;
 export const CardTitle = styled.span`
     font-size: 40px;
+
+    @media (min-width:360px) and (max-width: 740px){
+    font-size:20px;
+    }
 `;
 export const CardDesc = styled.span`
     font-size: 20px;
+
+    @media (min-width:360px) and (max-width: 740px){
+    font-size:17px;
+    }
 `;
 export const CardButton = styled.button`
 
@@ -86,6 +115,13 @@ export const CardButton = styled.button`
     transition: all ease 0.4s;
     &:hover{
         filter: brightness(0.5);
+    }
+
+    @media (min-width:360px) and (max-width: 740px){
+        width: 100%;
+        padding: 10px 20px ;
+        border-radius: 10px;
+        font-size: 25px;
     }
 `;
 

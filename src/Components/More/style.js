@@ -15,6 +15,10 @@ export const Container = styled.div`
     background-image: url('./img/bg-feed.png');
     background-size: cover;
     background-repeat: no-repeat;
+
+    @media (min-width:360px) and (max-width: 740px){
+        display: block;
+    }
 `;
 
 
@@ -25,6 +29,11 @@ export const Info = styled.div`
 export const Title = styled.h1`
   font-size: 70px;
   color: yellow;
+
+  @media (min-width:360px) and (max-width: 740px){
+        margin: 0 auto;
+        margin-bottom: 15px;   
+    }
 `;
 export const CardContainer = styled.div`
     width: 60%;
@@ -33,10 +42,20 @@ export const CardContainer = styled.div`
     gap: 30px;
     justify-content: center;
 
+    @media (min-width:360px) and (max-width: 740px){
+        margin: 0 auto;
+
+    }
+
 `;
 export const Cards = styled.div`
     width: 300px;
     height: 150px;
+    
+    @media (min-width:360px) and (max-width: 740px){
+        margin: 0 auto;
+        height: 100%;
+    }
 
     padding: 10px;
     border-radius: 10px;

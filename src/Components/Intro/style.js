@@ -10,6 +10,14 @@ export const Container = styled.div`
     background-size: cover; /* Controla o dimensionamento da imagem */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
   /* Outras propriedades de estilo */
+
+
+  @media (min-width:360px) and (max-width: 740px){
+    background-image: url('./img/bg-feed.png');
+    background-size: cover; /* Controla o dimensionamento da imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+  /* Outras propriedades de estilo */
+    }
 `;
 
 
@@ -25,6 +33,12 @@ export const Info = styled.div`
     color: crimson;
     padding: 20px;
     line-height: 50px;
+
+    
+    @media (min-width:360px) and (max-width: 740px){
+        margin-top: 0px;  
+        padding: 10px;
+    }
     
 `;
 export const Title = styled.h1`
@@ -33,6 +47,13 @@ export const Title = styled.h1`
     font-family: 'Anton', sans-serif;
     line-height: 180px;
     letter-spacing: 4px;
+
+    @media (min-width:360px) and (max-width: 740px){
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    line-height: normal;
+    letter-spacing: 4px;
+    }
 
 `;
 export const Desc = styled.p`
@@ -56,5 +77,19 @@ export const Button = styled.button`
         filter: brightness(0.5);
         color: crimson;
 
+    }
+
+    
+    @media (min-width:360px) and (max-width: 740px){
+    padding: 10px 0px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid crimson   ;
+    background-color: transparent;
+    color: white;
+
+    font-weight: bolder;
+    transition: all 0.3s ease;
+    font-size: 18px;
     }
 `;
