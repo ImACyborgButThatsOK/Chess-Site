@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    height: 90vh;
+    height: 100%;
 
     display: flex;
     align-items: center;
@@ -16,25 +16,24 @@ export const Container = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
 
-    @media (min-width:360px) and (max-width: 740px){
-        display: block;
+    @media (min-width:360px) and (max-width: 820px  ){
+        display: flex;
     }
-
-    @media (min-width:820px) and (max-width: 1180px){
-        display: block;
-    }
+    margin-top: 180px;
 `;
 
 
 export const Info = styled.div`
     width: 100%;
     text-align: center;
+
+    
 `;
 export const Title = styled.h1`
   font-size: 70px;
   color: yellow;
 
-    @media (min-width:360px) and (max-width: 740px){
+    @media (min-width:360px) and (max-width: 820px){
         margin: 0 auto;
         margin-bottom: 15px;   
     }
@@ -51,22 +50,22 @@ export const CardContainer = styled.div`
     gap: 30px;
     justify-content: center;
 
-    @media (min-width:360px) and (max-width: 740px){
+    @media (min-width:360px) and (max-width: 820px){
         margin: 0 auto;
-
+        width: 100%;
     }
     @media (min-width:820px) and (max-width: 1180px){
         width: 100%;
         margin-bottom: 15px; 
     }
+  
 `;
 export const Cards = styled.div`
     width: 300px;
     height: 150px;
     
-    @media (min-width:360px) and (max-width: 740px){
+    @media (min-width:360px) and (max-width: 820px){
         margin: 0 auto;
-        height: 100%;
     }
 
     padding: 10px;

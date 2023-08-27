@@ -45,7 +45,9 @@ export const Title = styled.h2`
         margin-bottom: 20px;
     }
 
-    @media (min-width:820px) and (max-width: 1180px){
+    @media (min-width:740px) and (max-width: 1180px){
+        text-align: center;
+        font-size: 70px;
         text-align: center;
     }
 `;
@@ -60,6 +62,8 @@ export const Desc = styled.p`
     @media (min-width:360px) and (max-width: 740px){
        display: none;
     }
+
+    
 `;
 export const ContainerCards = styled.div`
     width: 100%;
@@ -76,7 +80,10 @@ export const ContainerCards = styled.div`
         padding-top: 40px;
 
     }
-
+    @media (min-width:740px) and (max-width: 1180px){
+        font-size:17px;
+        gap: 30px;
+    }
     
     
 `;
@@ -92,6 +99,11 @@ export const Card = styled.div`
         font-size: 80px;
         cursor: pointer;
     }
+
+    @media (min-width:740px) and (max-width: 1180px){
+        font-size:17px;
+        width: 100%;
+    }
 `;
 export const CardTitle = styled.span`
     font-size: 40px;
@@ -99,12 +111,21 @@ export const CardTitle = styled.span`
     @media (min-width:360px) and (max-width: 740px){
     font-size:20px;
     }
+    @media (min-width:740px) and (max-width: 1180px){
+        font-size:17px;
+        text-align: center;
+    }
 `;
 export const CardDesc = styled.span`
     font-size: 20px;
 
     @media (min-width:360px) and (max-width: 740px){
     font-size:17px;
+    }
+
+    @media (min-width:740px) and (max-width: 1180px){
+        font-size:17px;
+        text-align: center;
     }
 `;
 export const CardButton = styled.button`

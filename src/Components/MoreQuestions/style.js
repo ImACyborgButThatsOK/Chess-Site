@@ -8,7 +8,7 @@ export const Container = styled.div`
      flex-direction: column;
      justify-content: center;
      align-items: center;
-    background-image: url('./img/questions.png');
+     background-image: url('./img/bg-feed.png');
     background-size: cover; /* Controla o dimensionamento da imagem */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
   /* Outras propriedades de estilo */
@@ -67,8 +67,11 @@ export const Subcategories = styled.div`
   
 `;
 export const SubTitle = styled.div`
-
     font-size: 24px;   
     color: #80ed99;
-    width: 60%;
+    width: 100%;
+
+    @media (min-width:740px) and (max-width: 1180px){
+        font-size: 30px;
+    }
 `;
