@@ -13,6 +13,9 @@ export const Container = styled.div`
     @media (min-width:360px) and (max-width: 740px){
      display: none;
     }
+    @media (min-width:820px) and (max-width: 1180px){
+        display: none;
+    }
 `;
 export const Title = styled.h1`
     margin-top: 50px;

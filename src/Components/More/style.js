@@ -19,6 +19,10 @@ export const Container = styled.div`
     @media (min-width:360px) and (max-width: 740px){
         display: block;
     }
+
+    @media (min-width:820px) and (max-width: 1180px){
+        display: block;
+    }
 `;
 
 
@@ -30,9 +34,14 @@ export const Title = styled.h1`
   font-size: 70px;
   color: yellow;
 
-  @media (min-width:360px) and (max-width: 740px){
+    @media (min-width:360px) and (max-width: 740px){
         margin: 0 auto;
         margin-bottom: 15px;   
+    }
+
+    
+    @media (min-width:820px) and (max-width: 1180px){
+        margin-bottom: 15px; 
     }
 `;
 export const CardContainer = styled.div`
@@ -46,7 +55,10 @@ export const CardContainer = styled.div`
         margin: 0 auto;
 
     }
-
+    @media (min-width:820px) and (max-width: 1180px){
+        width: 100%;
+        margin-bottom: 15px; 
+    }
 `;
 export const Cards = styled.div`
     width: 300px;

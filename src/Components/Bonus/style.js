@@ -12,6 +12,10 @@ export const Container = styled.div`
         display: none;
     }
 
+    @media (min-width:820px) and (max-width: 1180px){
+        display: none;
+    }
+
 `;
 export const ImgContainer = styled.div``;
 export const Img = styled.img`

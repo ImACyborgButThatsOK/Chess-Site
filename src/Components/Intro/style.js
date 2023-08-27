@@ -18,6 +18,13 @@ export const Container = styled.div`
     background-repeat: no-repeat; /* Evita a repetição da imagem */
   /* Outras propriedades de estilo */
     }
+
+    @media (min-width:820px) and (max-width: 1180px){
+    background-image: url('./img/bg-feed.png');
+    background-size: cover; /* Controla o dimensionamento da imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+  /* Outras propriedades de estilo */
+    }
 `;
 
 
@@ -39,6 +46,8 @@ export const Info = styled.div`
         margin-top: 0px;  
         padding: 10px;
     }
+
+ 
     
 `;
 export const Title = styled.h1`
@@ -55,6 +64,13 @@ export const Title = styled.h1`
     letter-spacing: 4px;
     }
 
+    @media (min-width:820px) and (max-width: 1180px){
+        text-align: center;
+        font-size: 100px;
+        font-family: 'Anton', sans-serif;
+        line-height: 120px;
+        letter-spacing: 10px;
+    }
 `;
 export const Desc = styled.p`
 
@@ -91,5 +107,10 @@ export const Button = styled.button`
     font-weight: bolder;
     transition: all 0.3s ease;
     font-size: 18px;
+    }
+
+
+    @media (min-width:820px) and (max-width: 1180px){
+        width: 100%;
     }
 `;

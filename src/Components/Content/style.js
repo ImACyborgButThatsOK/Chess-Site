@@ -44,6 +44,10 @@ export const Title = styled.h2`
         text-align: center;
         margin-bottom: 20px;
     }
+
+    @media (min-width:820px) and (max-width: 1180px){
+        text-align: center;
+    }
 `;
 export const Desc = styled.p`
     text-align: center;
@@ -72,6 +76,8 @@ export const ContainerCards = styled.div`
         padding-top: 40px;
 
     }
+
+    
     
 `;
 export const Card = styled.div`
